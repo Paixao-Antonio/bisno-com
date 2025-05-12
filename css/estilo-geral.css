@@ -52,7 +52,7 @@
 
 }
 
-/* estilizando o header-cabeçalho */
+/* estilizando o header-cabeÃ§alho */
 
 header {
   background-color: #f9b233;
@@ -141,7 +141,7 @@ header {
 
 
 
-/* estilizando a sessão pesquisa */
+/* estilizando a sessÃ£o pesquisa */
 .pesquisa {
   display: flex;
   justify-content: center;
@@ -179,57 +179,73 @@ header {
 
 
 
-/* Estilizando a sessão Destaques */
+/* Estilizando a sessao Destaques */
+
 
 .destaques {
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding: 0 20px 50px;
 }
 
 .destaques h2 {
   background-color: #f9b233;
-  padding: 5px;
+  padding: 10px;
   text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .destaques .sessao-vendas h3 {
   padding-top: 20px;
   font-weight: bold;
+  font-size: 1.25rem;
 }
 
-
 .destaques .sessao-vendas .produtos {
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
   padding-top: 20px;
-
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos {
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
   padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos:hover {
+  transform: translateY(-5px);
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos p {
-  align-items: left;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: left;
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos .preco {
   font-weight: bold;
+  color: #333;
+  font-size: 1.1rem;
 }
 
-.destaques .sessao-vendas .produtos .produtos-produtos img {
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
-  padding-bottom: 20px;
 
-}
+
+
+/* end a sessao Destaques */
 
 .anuncio {
   text-align: left;
