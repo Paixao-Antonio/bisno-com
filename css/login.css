@@ -166,3 +166,18 @@
     background-color: #f9b233;
     transition: 0.5s;
   }
+
+  @media (max-width: 480px) {
+  .fazer-login {
+    padding: 30px 20px;
+  }
+
+  .extras {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .extras button {
+    width: 100%;
+  }
+}

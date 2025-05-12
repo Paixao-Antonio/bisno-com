@@ -157,4 +157,24 @@
     vertical-align: super;
   }
 
+  @media (max-width: 480px) {
+  .criar-conta {
+    padding: 20px 15px;
+  }
+
+  .criar-conta h2 {
+    font-size: 1.2rem;
+  }
+
+  .submit,
+  .conta {
+    flex-direction: column;
+    padding: 8px;
+  }
+
+  .extras {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
   
