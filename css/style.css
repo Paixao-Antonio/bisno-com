@@ -1,0 +1,287 @@
+/* Resetando todos os estilos */
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  list-style: none;
+
+}
+
+/* Resetando o root */
+
+:root {
+  --azul-1: #028DD0;
+  --azul-2: #04328E;
+  --azul-3: #009dff;
+  --vermelho: rgb(251, 4, 4);
+  --botao-laranja: #f19a0e;
+  --branca: #ffffff;
+  --preta: #111111;
+  --texto-title: #555555;
+  --bg-branco-2: #edf2f7;
+  --bg-branco-3: #f2f2f2;
+  --bg-cinza: #f5f5f5;
+  --bg-cinza-2: #d3d7d6;
+  --bg-cinza-3: #888;
+  --opacidade-1: rgba(0, 0, 0, 0.4);
+  --opacidade-2: rgba(0, 0, 0, 0.5);
+  --linha-header: #e1e9ed28;
+  --instagram: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  --whatsapp: #075e54;
+  --facebook: #3b5998;
+  --linkedin: #0e76a8;
+}
+
+:root {
+  --shadow: 0 4px 4px 0 rgba(25, 67, 182, 0);
+  --shadow-1: 0 1px 0 0 #028bd071;
+  --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+:root {
+  --button-padding: 8px 15px;
+  --button-border-radius: 5px;
+  --card-radius: 10px;
+  background-color: #f0f0f0;
+
+}
+
+/* estilizando o header-cabeçalho */
+
+header {
+  background-color: #f9b233;
+  padding: 35px;
+  border-bottom: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+}
+
+.cabecalho {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacao ul {
+  display: flex;
+  margin-left: 50px;
+
+}
+
+.navegacao ul li a {
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+.navegacao ul li a:hover {
+  background-color: none;
+  transition: 0.9s;
+  border: 1px solid black;
+}
+
+/* end header */
+
+
+
+
+
+
+
+/* Estilo do banner */
+.banner {
+  text-align: center;
+  padding: 10rem 10rem;
+  background: url() center/cover no-repeat;
+  color: white;
+  background-color: #2d3436;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.banner h1,
+.banner p {
+  margin: 1rem 0;
+  color: #000;
+}
+
+.banner button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background-color: #000;
+  color: #f9b233;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* end banner */
+
+
+
+
+
+
+/* estilizando a sessão pesquisa */
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.pesquisa input {
+  padding: 15px 200px 15px 15px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+
+}
+
+.pesquisa button {
+  background-color: #f9b233;
+  color: var(--preta);
+  padding: 15px 15px 15px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.pesquisa button:hover {
+  color: white;
+  border: 1px solid var(--preta);
+  transition: 1s;
+}
+
+/* end pesquisa */
+
+
+
+
+
+
+/* Estilizando a sessão Destaques */
+
+.destaques {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.destaques h2 {
+  background-color: #f9b233;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.destaques .sessao-vendas h3 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+
+.destaques .sessao-vendas .produtos {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 6px;
+  padding-top: 20px;
+
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos p {
+  align-items: left;
+  padding-bottom: 5px;
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos .preco {
+  font-weight: bold;
+}
+
+.destaques .sessao-vendas .produtos .produtos-produtos img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+
+}
+
+.anuncio {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.btn-anuncio {
+  background-color: #f9b233;
+  border: none;
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  color: #000000;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 0.5px solid black;
+}
+
+.btn-anuncio a{
+  color: black;
+}
+.btn-anuncio:hover {
+  background-color: #ffffff;
+  transition: 1s;
+  border: 0.5px solid black;
+}
+
+.btn-anuncio .arrow {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsivo */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .anuncio {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .categoria-lista {
+    flex-direction: column;
+  }
+}
