@@ -175,8 +175,8 @@
   }
 
   .fazer-login {
-    padding: 30px 5px;
-    width: 90%;
+    padding: 30px 20px;
+    max-width: 80%;
     box-sizing: border-box;
   }
 
