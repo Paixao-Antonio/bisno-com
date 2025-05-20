@@ -171,12 +171,11 @@
   .login {
     flex-direction: column;
     padding: 180px 20px 50px 20px;
-    max-width: 80%;
   }
 
   .fazer-login {
     padding: 30px 20px;
-    max-width: 80%;
+    max-width: 100%;
     box-sizing: border-box;
   }
 
@@ -210,11 +209,6 @@
 }
 
 @media (max-width: 480px) {
-
-  .login {
-    flex-direction: column;
-    max-width: 80%;
-  }
 
   .fazer-login h2 {
     font-size: 20px;
