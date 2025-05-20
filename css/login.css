@@ -213,8 +213,7 @@
 
   .login {
     flex-direction: column;
-    max-width: 30%;
-    background-color: red;
+    max-width: 80%;
   }
 
   .fazer-login h2 {
