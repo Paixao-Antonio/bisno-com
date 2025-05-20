@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/estilo-geral.css">
+    <link rel="stylesheet" href="../css/editar-perfil.css">
+
+
+
+    <title>BISNO | Editar Perfil</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <div class="logo"><a href="../index.html">BISNO</a></div>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a href="criar-conta.html">Criar Conta</a></li>
+                    <li><a href="anunciar.html">Anunciar </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="configuracao">
+        <h3>Configurações de Conta</h3>
+    </div>
+
+    <section class="editar-perfil">
+
+        <div class="teste-one">
+
+            <div class="foto">
+                <h3>Adicionar Fotografia</h3>
+
+            </div>
+
+            <div class="escolher-imagem">
+
+                <img src="../img/Asael.png" alt="">
+
+                <div class="texto">
+                    <h3>Escolha uma foto do seu dispositivo</h3>
+                    <p>Tamanho mínimo 120 x 120 px.</p>
+
+                    <button><input type="file" src="" alt=""></button>
+                </div>
+
+            </div>
+
+            <div class="informacao">
+                <h3>Informação</h3>
+            </div>
+
+            <div class="formulario">
+                <form action="">
+
+                    <label for="">Nome de Perfil: <span class="required-asterisk">*</span></label>
+                    <input type="text" placeholder="informe o seu nome" required>
+
+                    <label for="">Nome Completo: <span class="required-asterisk">*</span></label>
+                    <input type="text" placeholder="informe o seu nome">
+
+                    <label for="">Telefone: <span class="required-asterisk">*</span></label>
+                    <input type="text" placeholder="informe o seu telefone">
+
+                    <label for="">Sobre você <span class="required-asterisk">*</span></label>
+                    <textarea name="descricao" placeholder="Digite aqui sua descrição..." rows="12"
+                        cols="85"></textarea>
+
+                </form>
+            </div>
+
+            <div class="verificar-identidade">
+                <h3>Verificar sua identidade <span class="required-asterisk">*</span></h3>
+                <input type="email" placeholder="informe o seu e-mail">
+                <h3>Nº B.I: <span class="required-asterisk">*</span></h3>
+                <input type="text" placeholder="informe o número do B.I">
+
+            </div>
+
+            <div class="verificar-identidade-2">
+                <h3>Escoha uma imagem no seu dispositivo <span class="required-asterisk">*</span></h3>
+                <p>Carregue seu documento de identidade, passaporte ou carteira de motorista</p>
+
+                <input type="file" name="ficheiro" />
+
+            </div>
+
+
+        </div>
+
+        <div class="teste">
+
+
+            <div class="Link-Redes-Sociais">
+                <h3>Links Sociais</h3>
+            </div>
+
+            <div class="Redes-Sociais">
+
+                <form action="" class="Redes-Sociais-Form">
+
+                    <label for="">URL DO FACEBOOK</label>
+                    <input type="text" placeholder="informe seu link do facebook">
+
+                    <label for="">URL DO INSTAGRAM</label>
+                    <input type="text" placeholder="informe seu link do instagram">
+
+                    <label for="">URL DO LINKEDIN</label>
+                    <input type="text" placeholder="informe seu link do linkedin">
+
+                </form>
+
+            </div>
+
+
+
+            <div class="Localizacao">
+                <h3>Informe sua morada</h3>
+            </div>
+
+            <!-- Container agrupando os campos de localização em 2 colunas -->
+            <div class="localizacao-grid">
+                <!-- Primeira coluna: Localização e Município -->
+                <div class="coluna">
+                    <label for="distrito">Província<span class="required-asterisk">*</span></label>
+                    <input type="text" name="distrito" id="distrito" placeholder="Informe o distrito">
+
+                    <label for="rua">Município<span class="required-asterisk">*</span></label>
+                    <input type="text" name="rua" id="rua" placeholder="Informe a rua">
+                </div>
+
+                <!-- Segunda coluna: Distrito e Rua -->
+                <div class="coluna">
+                    <label for="distrito">Distrito<span class="required-asterisk">*</span></label>
+                    <input type="text" name="distrito" id="distrito" placeholder="Informe o distrito">
+
+                    <label for="rua">Rua<span class="required-asterisk">*</span></label>
+                    <input type="text" name="rua" id="rua" placeholder="Informe a rua">
+                </div>
+            </div>
+
+            <div class="senha">
+                <h3>Senha</h3>
+            </div>
+
+            <div class="confirmar-senha">
+
+                <form action="">
+
+                    <label for="">NOVA SENHA <span class="required-asterisk">*</span></label>
+                    <input type="email" placeholder="informe a sua senha">
+
+                    <label for="">REPITA A SENHA <span class="required-asterisk">*</span></label>
+                    <input type="email" placeholder="confirmar senha">
+
+                    <button type="submit">Actualizar</button>
+
+                </form>
+
+            </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>LINKS ÚTEIS</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Destaques</a></li>
+                    <li><a href="#">Termos & Condições</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>COMO FUNCIONAMOS</h3>
+                <ul>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>CONTACTOS</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> +244 926 834 602</li>
+                    <li><i class="fas fa-envelope"></i> suporte@bisno.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Palanca, Luanda - Angola</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>BISNO.COM</h3>
+                <ul>
+                    <li>A melhor plataforma de BISNO em Angola!</li>
+
+                    <p>Registe-se na nossa newsletter agora e desfrute de actualizações exclusivas.</p>
+                    <li>
+                        <form class="newsletter">
+                            <input type="email" placeholder="digite seu e-mail" required>
+                            <button type="submit">Enviar</i></button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 BISNO. Todos os direitos reservados. | <a href="#">WebNova</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
