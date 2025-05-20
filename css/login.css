@@ -167,17 +167,76 @@
     transition: 0.5s;
   }
 
-  @media (max-width: 480px) {
+@media (max-width: 768px) {
+  .login {
+    flex-direction: column;
+    padding: 180px 20px 50px 20px;
+    max-width: 80%;
+  }
+
   .fazer-login {
-    padding: 30px 20px;
+    padding: 30px 5px;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  input {
+    padding: 12px 10px;
+    font-size: 16px;
+  }
+
+  .submit,
+  .conta {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .extras {
     flex-direction: column;
     gap: 10px;
+    align-items: stretch;
   }
 
   .extras button {
+    font-size: 12px;
     width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .login {
+    flex-direction: column;
+    max-width: 30%;
+    background-color: red;
+  }
+
+  .fazer-login h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .fazer-login p {
+    font-size: 8px;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .submit,
+  .conta {
+    font-size: 15px;
+  }
+
+  .extras button {
+    font-size: 11px;
   }
 }

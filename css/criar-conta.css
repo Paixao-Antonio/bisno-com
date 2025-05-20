@@ -151,30 +151,76 @@
     font-size: 10px;
   }
 
+  .criar-conta button a{
+    color: black;
+  }
+
   .required-asterisk{
     color: red;
     font-size: 0.8em;
     vertical-align: super;
   }
 
-  @media (max-width: 480px) {
-  .criar-conta {
-    padding: 20px 15px;
+
+
+
+
+
+
+  @media (max-width: 768px) {
+  .conta-create {
+    flex-direction: column;
+    padding: 180px 20px 50px 20px;
   }
 
-  .criar-conta h2 {
-    font-size: 1.2rem;
+  .criar-conta {
+    padding: 30px 20px;
+    width: 80%;
+    box-sizing: border-box;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  input {
+    padding: 12px 10px;
+    font-size: 16px;
   }
 
   .submit,
   .conta {
-    flex-direction: column;
-    padding: 8px;
-  }
-
-  .extras {
-    flex-direction: column;
-    gap: 10px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
-  
+
+@media (max-width: 480px) {
+  .criar-conta h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+
+  .criar-conta p {
+    font-size: 8px;
+  }
+
+  .criar-conta span {
+    font-size: 9px;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .submit,
+  .conta {
+    font-size: 15px;
+  }
+}
+
+
+ 

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo-geral.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/anunciar.css">
+    
+
+
+    <title>BISNO | Anunciar</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body>
+
+    <header>
+        <div class="cabecalho">
+            <div class="logo"><a href="../index.html">BISNO</a></div>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="login.html">Entrar</a></li>
+                    <li><a href="criar-conta.html">Criar Conta</a></li>
+                    <li><a href="anunciar.html">Anunciar </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Sessão Anunciar-->
+    <section class="anunciar">
+
+        <div class="forma-1">
+            <h2>Passos para publicar um anúncio</h2>
+            <ol>
+                <li>1. Selecione uma categoria</li>
+                <li>2. Informe o tipo de artigo</li>
+                <li>3. Informe a descrição</li>
+                <li>4. Adicione o preço</li>
+                <li>5. Indique sua localização</li>
+                <li>6. Adicione o telefone</li>
+                <li>7. Informe o whatsapp</li>
+                <li>8. Informe o seu e-mail</li>
+                <li>9. Adicione imagens ao anúncio</li>
+                <li>10. dddddddddddddddddddddddddd</li>
+            </ol>
+        </div>
+
+        <div class="forma-2">
+            <h2>Publicar anúncio</h2>
+            <form action="">
+
+                <label for="">Categoria: <span class="required-asterisk">*</span></label>
+                <input type="text" placeholder="informe a categoria" required>
+                <label for="">Tipo de artigo: <span class="required-asterisk">*</span></label>
+                <input type="text" placeholder="Ex.: Iphone 11pro">
+                <label for="">Descrição</label>
+                <textarea name="descricao" placeholder="Digite aqui sua descrição..." rows="12" cols="120"></textarea>
+
+                <label for="">Preço: <span class="required-asterisk">*</span></label>
+                <input type="text" placeholder="informe o preço (em kwanzas)">
+                <label for="">Entrega ao domicilio</label>
+                <input type="checkbox" name="" id="">
+
+                <!-- Container agrupando os campos de localização em 2 colunas -->
+                <div class="localizacao-grid" >
+                    <!-- Primeira coluna: Localização e Município -->
+                    <div class="coluna">
+                        <label for="localizacao" >Província: <span class="required-asterisk">*</span></label>
+                        <select name="localizacao" id="localizacao" required>
+                            <option value="" disabled selected>Escolha sua localização</option>
+                            <option value="Luanda">Luanda</option>
+                            <option value="Bengo">Bengo</option>
+                            <option value="Cuanza Norte">Cuanza Norte</option>
+                            <option value="Huila">Huila</option>
+                            <option value="Bié">Bié</option>
+                            <option value="Namibe">Namibe</option>
+                            <option value="Huambo">Huambo</option>
+                            <option value="Malanje">Malanje</option>
+                            <option value="Lunda Sul">Lunda Sul</option>
+                            <option value="Luanda Norte">Luanda Norte</option>
+                            <option value="Uíge">Uíge</option>
+                            <option value="Benguela">Benguela</option>
+                            <option value="Cunene">Cunene</option>
+                            <option value="Cuanza Sul">Cuanza Sul</option>
+                            <option value="Zaíre">Zaíre</option>
+                            <option value="Cabinda">Cabinda</option>
+                            <option value="Moxico Leste">Moxico Leste</option>
+                            <option value="Cuando">Cuando</option>
+                            <option value="Cubango">Cubango</option>
+                            <option value="Moxico Oeste">Moxico Oeste</option>
+                        </select>
+
+                        <label for="municipio">Município: <span class="required-asterisk">*</span></label>
+                        <select name="municipio" id="municipio" required>
+                            <option value="" disabled selected>Selecione o município</option>
+                            <option value="Talatona">Talatona</option>
+                            <option value="Viana">Viana</option>
+                            <option value="Belas">Belas</option>
+                            <option value="Kilamba Kiaxi">Kilamba Kiaxi</option>
+                            <option value="Maianga">Maianga</option>
+                            <!-- Adicione outros conforme necessário -->
+                        </select>
+                    </div>
+
+                    <!-- Segunda coluna: Distrito e Rua -->
+                    <div class="coluna">
+                        <label for="distrito">Distrito: <span class="required-asterisk">*</span></label>
+                        <input type="text" name="distrito" id="distrito" placeholder="Informe o distrito">
+
+                        <label for="rua">Rua: <span class="required-asterisk">*</span></label>
+                        <input type="text" name="rua" id="rua" placeholder="Informe a rua">
+                    </div>
+                </div>
+
+                <label for="">Telefone: <span class="required-asterisk">*</span></label>
+                <input type="text" placeholder="Ex.: (900 000 000)">
+                <span>Whatsapp</span>: <input type="checkbox">
+                <label for="">E-mail: <span class="required-asterisk">*</span></label>
+                <input type="email" placeholder="informe seu e-mail">
+
+                <button type="button"><a href="anunciar-2.html">seguinte</a></button>
+
+            </form>
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>LINKS ÚTEIS</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Destaques</a></li>
+                    <li><a href="#">Termos & Condições</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>COMO FUNCIONAMOS</h3>
+                <ul>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                    <li><a href="#">Regulamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>CONTACTOS</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> +244 926 834 602</li>
+                    <li><i class="fas fa-envelope"></i> suporte@bisno.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Palanca, Luanda - Angola</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>BISNO.COM</h3>
+                <ul>
+                    <li>A melhor plataforma de BISNO em Angola!</li>
+
+                    <p>Registe-se na nossa newsletter agora e desfrute de actualizações exclusivas.</p>
+                    <li>
+                        <form class="newsletter">
+                            <input type="email" placeholder="digite seu e-mail" required>
+                            <button type="submit">Enviar</i></button>
+                        </form>
+                    </li>
+                </ul>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2025 BISNO. Todos os direitos reservados. | <a href="#">WebNova</a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
