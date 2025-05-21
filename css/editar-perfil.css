@@ -288,9 +288,14 @@ body {
   padding: 8px 12px;
   border: 1px solid black;
   border-radius: 3px;
-  background-color: white;
+  background-color: #f9b233;
   color: #000000;
   cursor: pointer;
+}
+
+.confirmar-senha button:hover{
+  background-color: white;
+  transition: 1.5s;
 }
 
 
@@ -331,7 +336,7 @@ body {
   width: 100%;
   padding: 12px;
   margin-top: 5px;
-  border: 1px solid #000000;
+  border: 1px solid rgb(175, 175, 175);
   border-radius: 5px;
 
 }

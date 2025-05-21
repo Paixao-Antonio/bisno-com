@@ -120,7 +120,7 @@
 
   .fazer-login{
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 1px solid #f9b233;
     border-radius: 10px;
     margin: 0 auto;
     padding: 50px 50px 50px 50px;
@@ -131,6 +131,10 @@
     margin-top: -20px;
     padding-bottom: 50px;
     text-align: center;
+  }
+  
+  .fazer-login input{
+    border: 1px solid rgb(175, 175, 175);
   }
 
   .fazer-login p{

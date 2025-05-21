@@ -120,10 +120,14 @@
 
   .criar-conta{
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 1px solid #f9b233;
     border-radius: 10px;
     margin: 0 auto;
     padding: 50px 50px 50px 50px;
+  }
+
+  .criar-conta input{
+    border: 1px solid rgb(175, 175, 175);
   }
 
   .criar-conta h2{

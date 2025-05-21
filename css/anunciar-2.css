@@ -1,0 +1,74 @@
+.sessao-principal {
+    background-color: rgb(255, 255, 255);
+    padding: 0.5%;
+    border: 1px solid rgb(175, 175, 175);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    margin-top: 95px;
+    margin-bottom: 15px;
+}
+
+.sessao-principal .div-imagem {
+    background-color: #f9b233;
+    padding: 1%;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+.sessao-principal .div-imagem .imagem {
+    background-color: #ffffff;
+    padding: 10%;
+    border: 1px solid rgb(175, 175, 175);
+}
+
+
+.sessao-principal .div-imagem .imagem p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.sessao-principal input[type="file"] {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.sessao-principal p {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+
+.sessao-principal .botao {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.sessao-principal button {
+    background-color: #f9b233;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(63, 63, 63);
+
+}
+
+.sessao-principal button:hover {
+    background-color: white;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.sessao-principal button a {
+    color: black;
+    text-align: center;
+
+}
