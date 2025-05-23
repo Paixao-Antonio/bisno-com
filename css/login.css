@@ -119,7 +119,7 @@
   }
 
   .fazer-login{
-    background-color: #ffffff;
+    background-color: var(--branca);
     border: 1px solid #f9b233;
     border-radius: 10px;
     margin: 0 auto;

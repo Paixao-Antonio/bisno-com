@@ -15,18 +15,51 @@
 
 <body>
 
-    <header>
-        <div class="cabecalho">
-            <div class="logo"><a href="../index.html">BISNO</a></div>
-            <nav class="navegacao">
-                <ul>
-                    <li><a href="login.html">Entrar</a></li>
-                    <li><a href="criar-conta.html">Criar Conta</a></li>
-                    <li><a href="anunciar.html">Anunciar </a></li>
-                </ul>
-            </nav>
+    <header class="navbar">
+
+        <div class="conteudo-header">
+            <div class="lado-esquerdo">
+                <div class="menu-toggle" id="menu-toggle">
+                    <div id="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div id="icone-fechar">×</div>
+                </div>
+
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/IMG_0396.JPG" alt="Paiaki Logo" /></a>
+                    <span>BISNO</span>
+                </div>
+
+            </div>
+
+            <div class="lado-direito">
+                <div class="desktop-menu">
+                    <a href="login.html">Entrar</a>
+                    <a href="criar-conta.html">Criar conta</a>
+                    <button class="vender-btn"><a href="anunciar.html">Anunciar</a></button>
+
+                </div>
+            </div>
         </div>
+
+
+
     </header>
+
+    <!-- Mobile dropdown menu -->
+    <nav class="menu" id="menu">
+        <a href="login.html">Entrar</a>
+        <a href="criar-conta.html">Criar conta</a>
+    </nav>
+
+
+
+
+
+
 
 
     <div class="configuracao">
@@ -87,8 +120,8 @@
             </div>
 
             <div class="verificar-identidade-2">
-                <h3>Escoha uma imagem no seu dispositivo <span class="required-asterisk">*</span></h3>
-                <p>Carregue seu documento de identidade, passaporte ou carteira de motorista</p>
+                <h3>Escoha uma imagem/pdf no seu dispositivo <span class="required-asterisk">*</span></h3>
+                <p>Carregue seu documento de identidade, passaporte ou carteira de motorista.</p>
 
                 <input type="file" name="ficheiro" />
 
@@ -242,6 +275,9 @@
         </div>
     </footer>
 
+
+
+    <script src="../java script/bisno.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/estilo-geral.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/login.css">
-
+            
     <title>BISNO | Login</title>
 </head>
 
@@ -15,18 +15,53 @@
 
 
 <body>
-    <header>
-        <div class="cabecalho">
-            <div class="logo"><a href="../index.html">BISNO</a></div>
-            <nav class="navegacao">
-                <ul>
-                    <li><a href="login.html">Entrar</a></li>
-                    <li><a href="criar-conta.html">Criar Conta</a></li>
-                    <li><a href="anunciar.html">Anunciar </a></li>
-                </ul>
-            </nav>
+
+    <header class="navbar">
+
+        <div class="conteudo-header">
+            <div class="lado-esquerdo">
+                <div class="menu-toggle" id="menu-toggle">
+                    <div id="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div id="icone-fechar">×</div>
+                </div>
+
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/IMG_0396.JPG" alt="Paiaki Logo" /></a>
+                    <span>BISNO</span>
+                </div>
+
+            </div>
+
+            <div class="lado-direito">
+                <div class="desktop-menu">
+                    <a href="login.html">Entrar</a>
+                    <a href="criar-conta.html">Criar conta</a>
+                    <button class="vender-btn"><a href="anunciar.html">Anunciar</a></button>
+
+                </div>
+            </div>
         </div>
+
+
+
     </header>
+
+    <!-- Mobile dropdown menu -->
+    <nav class="menu" id="menu">
+        <a href="login.html">Entrar</a>
+        <a href="criar-conta.html">Criar conta</a>
+    </nav>
+
+
+
+
+
+    <!-- SESSAO LOGIN -->
+
 
 
     <section class="login">
@@ -47,7 +82,7 @@
             </form>
 
             <div class="extras">
-                <a href=""><button type="button">Recuperar Senha</button></a>
+                <a href="pagina-teste.html"><button type="button">Recuperar Senha</button></a>
             </div>
 
 
@@ -122,6 +157,9 @@
             &copy; 2025 BISNO. Todos os direitos reservados. | <a href="#">WebNova</a>
         </div>
     </footer>
+
+
+    <script src="../java script/bisno.js"></script>
 
 </body>
 

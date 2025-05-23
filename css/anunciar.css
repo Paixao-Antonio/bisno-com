@@ -160,7 +160,7 @@ form textarea {
     min-height: 80px;
 }
 
-button {
+form button {
     margin-top: 20px;
     padding: 8px 10px;
     background-color: #f9b233;
@@ -175,7 +175,7 @@ button a{
     color: black;
 }
 
-button:hover {
+form button:hover {
     background-color: #ffffff;
     transition: 2s;
 }

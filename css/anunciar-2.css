@@ -1,13 +1,20 @@
+
+
 .sessao-principal {
     background-color: rgb(255, 255, 255);
-    padding: 0.5%;
+    padding: 1%;
     border: 1px solid rgb(175, 175, 175);
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 70px;
     padding-bottom: 70px;
     margin-top: 95px;
     margin-bottom: 15px;
+}
+
+.sessao-principal h2{
+    text-align: center;
+    padding: 20px;
 }
 
 .sessao-principal .div-imagem {
@@ -28,6 +35,7 @@
     text-align: center;
     font-size: 22px;
     color: black;
+    opacity: 50%;
 }
 
 .sessao-principal input[type="file"] {

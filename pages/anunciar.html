@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/estilo-geral.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/anunciar.css">
-    
+
 
 
     <title>BISNO | Anunciar</title>
@@ -18,18 +18,45 @@
 
 <body>
 
-    <header>
-        <div class="cabecalho">
-            <div class="logo"><a href="../index.html">BISNO</a></div>
-            <nav class="navegacao">
-                <ul>
-                    <li><a href="login.html">Entrar</a></li>
-                    <li><a href="criar-conta.html">Criar Conta</a></li>
-                    <li><a href="anunciar.html">Anunciar </a></li>
-                </ul>
-            </nav>
+    <header class="navbar">
+
+        <div class="conteudo-header">
+            <div class="lado-esquerdo">
+                <div class="menu-toggle" id="menu-toggle">
+                    <div id="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div id="icone-fechar">×</div>
+                </div>
+
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/IMG_0396.JPG" alt="Paiaki Logo" /></a>
+                    <span>BISNO</span>
+                </div>
+
+            </div>
+
+            <div class="lado-direito">
+                <div class="desktop-menu">
+                    <a href="login.html">Entrar</a>
+                    <a href="criar-conta.html">Criar conta</a>
+                    <button class="vender-btn"><a href="anunciar.html">Anunciar</a></button>
+
+                </div>
+            </div>
         </div>
+
+
+
     </header>
+
+    <!-- Mobile dropdown menu -->
+    <nav class="menu" id="menu">
+        <a href="login.html">Entrar</a>
+        <a href="criar-conta.html">Criar conta</a>
+    </nav>
 
 
     <!-- Sessão Anunciar-->
@@ -47,7 +74,7 @@
                 <li>7. Informe o whatsapp</li>
                 <li>8. Informe o seu e-mail</li>
                 <li>9. Adicione imagens ao anúncio</li>
-                <li>10. dddddddddddddddddddddddddd</li>
+                <li>10. Finalizar</li>
             </ol>
         </div>
 
@@ -68,10 +95,10 @@
                 <input type="checkbox" name="" id="">
 
                 <!-- Container agrupando os campos de localização em 2 colunas -->
-                <div class="localizacao-grid" >
+                <div class="localizacao-grid">
                     <!-- Primeira coluna: Localização e Município -->
                     <div class="coluna">
-                        <label for="localizacao" >Província: <span class="required-asterisk">*</span></label>
+                        <label for="localizacao">Província: <span class="required-asterisk">*</span></label>
                         <select name="localizacao" id="localizacao" required>
                             <option value="" disabled selected>Escolha sua localização</option>
                             <option value="Luanda">Luanda</option>
@@ -202,6 +229,7 @@
         </div>
     </footer>
 
+    <script src="../java script/bisno.js"></script>
 </body>
 
 </html>

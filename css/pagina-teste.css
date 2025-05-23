@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: rgb(164, 22, 22);
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.lado-esquerdo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: green;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo img {
+  max-width: 40px;
+  border-radius: 50%;
+}
+
+.lado-direito {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: yellow;
+}
+
+.lado-direito a{
+  background-color: white;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.desktop-menu a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #022b2f;
+}
+
+.vender-btn {
+  background-color: #022b2f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+/* Menu toggle */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  background-color: yellow;
+}
+
+#hamburger-icon span {
+  width: 25px;
+  height: 3px;
+  background-color: #022b2f;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+  display: block;
+}
+
+#icone-fechar {
+  font-size: 28px;
+  color: #022b2f;
+  display: none;
+}
+
+/* Mobile menu dropdown */
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 1rem;
+}
+
+.menu.open {
+  max-height: 200px;
+}
+
+.menu a {
+  padding: 1rem 0;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+
+  .desktop-menu a {
+    display: none;
+  }
+
+   .desktop-menu button {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+  }
+}
