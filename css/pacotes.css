@@ -9,7 +9,7 @@
     box-sizing: border-box;
     border: none;
     background: transparent;
-    list-style: circle;
+
 
 }
 
@@ -102,7 +102,7 @@
 }
 
 .pacotes-divisao .pacote{
-    border: 1px solid black;
+    border: 1px solid var(--botao-laranja);
     padding: 15px;
     border-radius: 5px;
     margin: 5px;
@@ -135,6 +135,7 @@
 .pacote li{
     padding: 3px;
     text-align: left;
+    list-style: circle;
 }
 
 

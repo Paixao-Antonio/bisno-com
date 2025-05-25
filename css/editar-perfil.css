@@ -144,7 +144,7 @@ body {
   font-weight: bold;
 }
 
-.formulario form input[type="text"] {
+.formulario form input[type="text"], [type="tel"] {
   padding: 12px;
   border: 1px solid rgb(175, 175, 175);
   border-radius: 3px;
