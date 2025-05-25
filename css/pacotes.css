@@ -1,0 +1,160 @@
+/* Reset */
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    list-style: circle;
+
+}
+
+
+:root {
+    --azul-1: #028DD0;
+    --azul-2: #04328E;
+    --azul-3: #009dff;
+    --vermelho: rgb(251, 4, 4);
+    --botao-laranja: #f19a0e;
+    --branca: #ffffff;
+    --preta: #111111;
+    --texto-title: #555555;
+    --bg-branco-2: #edf2f7;
+    --bg-branco-3: #f2f2f2;
+    --bg-cinza: #f5f5f5;
+    --bg-cinza-2: #d3d7d6;
+    --bg-cinza-3: #888;
+    --opacidade-1: rgba(0, 0, 0, 0.4);
+    --opacidade-2: rgba(0, 0, 0, 0.5);
+    --linha-header: #e1e9ed28;
+    --instagram: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    --whatsapp: #075e54;
+    --facebook: #3b5998;
+    --linkedin: #0e76a8;
+}
+
+:root {
+    --shadow: 0 4px 4px 0 rgba(25, 67, 182, 0);
+    --shadow-1: 0 1px 0 0 #028bd071;
+    --shadow-2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+:root {
+    --button-padding: 8px 15px;
+    --button-border-radius: 5px;
+    --card-radius: 10px;
+
+}
+
+.titulo{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin:  0 auto;
+    text-align: center;
+}
+
+.titulo h2{
+
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.titulo button{
+
+    background-color: var(--botao-laranja);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--preta);
+}
+
+.titulo button a{
+    color: var(--preta);
+}
+
+.titulo button:hover{
+    transition: 1.5s;
+    color: var(--preta);
+    background-color: var(--branca);
+    cursor: pointer;
+}
+
+.pacotes-divisao {
+  
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.pacotes-divisao {
+
+    display: flex;
+    background-color: var(--branca);
+    justify-content: space-between;
+    max-width: 950px;
+    padding: 20px 0 50px 0;
+
+}
+
+.pacotes-divisao .pacote{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.pacote h4{
+    font-weight: bold;
+    text-align: left;
+}
+
+.pacote h3{
+    background-color: var(--botao-laranja);
+    font-size: 12px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    color: var(--preta);
+    font-weight: bold;
+}
+
+.pacote ul{
+    font-weight: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.pacote li{
+    padding: 3px;
+    text-align: left;
+}
+
+
+@media (max-width: 768px) {
+
+    .pacotes-divisao .pacote{
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    
+    }
+}
+
+@media (max-width: 480px) {
+
+    .pacotes-divisao {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+}

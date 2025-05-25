@@ -6,7 +6,7 @@
     border: 1px solid rgb(175, 175, 175);
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 70px;
     margin-top: 90px;
     margin-bottom: 15px;
@@ -14,7 +14,7 @@
 
 .sessao-principal h2{
     text-align: center;
-    padding: 20px;
+    padding: 0px 20px 40px 20px;
 }
 
 .sessao-principal .div-imagem {

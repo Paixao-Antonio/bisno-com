@@ -55,7 +55,7 @@ body {
 }
 
 .configuracao h3 {
-  padding-top: 150px;
+  padding-top: 90px;
   padding-bottom: 20px;
   text-align: center;
   font-size: 30px
@@ -70,6 +70,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
+  border-radius: 5px;
 }
 
 .editar-perfil h2 {

@@ -174,7 +174,7 @@
 @media (max-width: 768px) {
   .login {
     flex-direction: column;
-    padding: 180px 20px 50px 20px;
+    padding: 100px 20px 50px 20px;
   }
 
   .fazer-login {
