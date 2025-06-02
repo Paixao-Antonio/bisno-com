@@ -293,13 +293,12 @@ body {
 
 .secao-categoria {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  max-width: 1200px;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1000px;
   margin: 0 auto;
   padding-bottom: 50px;
-  
   align-items: left;
-  gap: 15px;
+  gap: 10px;
   
 
 }
@@ -314,7 +313,7 @@ body {
 }
 
 img{
-  max-width: 80px;
+  max-width: 40px;
   border-radius: 50%;
 }
 
@@ -469,7 +468,7 @@ img{
 
   .secao-categoria {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 50px;
