@@ -293,12 +293,11 @@ body {
 
 .secao-categoria {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(9, 3fr);
   max-width: 1000px;
   margin: 0 auto;
   padding-bottom: 50px;
   align-items: left;
-  gap: 10px;
   
 
 }
@@ -468,8 +467,8 @@ img{
 
   .secao-categoria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
     margin: 0 auto;
     padding-bottom: 50px;
   
@@ -504,8 +503,8 @@ img{
 
   .secao-categoria {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 50px;
   
