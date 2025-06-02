@@ -48,8 +48,11 @@
   --button-padding: 8px 15px;
   --button-border-radius: 5px;
   --card-radius: 10px;
-  --background-color: #f0f0f0;
 
+}
+
+body {
+  background-color: var(--bg-cinza);
 }
 
 /* estilizando o header-cabeÃ§alho */
@@ -205,6 +208,10 @@
 
 
 
+
+
+
+
 /* Estilo do banner */
 .banner {
   text-align: center;
@@ -250,12 +257,14 @@
   align-items: center;
   gap: 10px;
   margin: 40px 0;
+
 }
 
 .pesquisa input {
   padding: 15px 200px 15px 15px;
   border: 1px solid #000000;
   border-radius: 5px;
+  background-color: var(--branca);
 
 }
 
@@ -276,6 +285,42 @@
 
 /* end pesquisa */
 
+
+
+
+
+/* secao categoria */
+
+.secao-categoria {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  
+  align-items: left;
+  gap: 15px;
+  
+
+}
+
+.imagem{
+ 
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 13px;
+  
+  
+}
+
+img{
+  max-width: 80px;
+  border-radius: 50%;
+}
+
+
+
+/* end categoria */
 
 
 
@@ -308,13 +353,13 @@
 
 .destaques .sessao-vendas .produtos {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   padding-top: 20px;
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos {
-  background-color: #ffffff;
+  background-color: var(--branca);
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -327,22 +372,24 @@
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos img {
-  width: 100%;
-  max-width: 200px;
+  width: fit-content;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
   margin-bottom: 5px;
+  background-color: yellow;
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos p {
   margin-bottom: 3px;
   text-align: left;
+  font-size: 12px;
 }
 
 .destaques .sessao-vendas .produtos .produtos-produtos .preco {
   font-weight: bold;
   color: #333;
-  font-size: 1.1rem;
+  font-size: 15px;
 }
 
 
@@ -352,29 +399,33 @@
 
 .anuncio {
   text-align: left;
-  margin-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 30px;
+  width: fit-content;
+  padding-bottom: 50px;
 }
 
 .btn-anuncio {
-  background-color: #f9b233;
-  border: none;
+  background-color: var(--botao-laranja);
+  border: var(--preta);
   padding: 5px;
   font-size: 0.8rem;
   color: #000000;
   border-radius: 3px;
   cursor: pointer;
   border: 0.5px solid black;
+  padding: 10px;
 }
 
 .btn-anuncio a {
   color: black;
+  
 }
 
 .btn-anuncio:hover {
   background-color: #ffffff;
   transition: 1s;
-  border: 0.5px solid rgb(255, 255, 255);
+  border: 1px solid var(--preta);
+  transition: 1.5s;
 }
 
 
@@ -382,7 +433,7 @@
 
 
 /* Responsivo */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   nav ul {
     flex-direction: column;
     gap: 10px;
@@ -416,13 +467,31 @@
     margin-left: 10px;
   }
 
+  .secao-categoria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  
+  }
+  
+
   .destaques .sessao-vendas .produtos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin: 0 auto;
     padding-top: 10px;
 
+  }
+
+  .anuncio {
+    text-align: left;
+    padding-top: 30px;
+    width: fit-content;
+    padding-bottom: 50px;
+    margin-left: 10px;
   }
 }
 
@@ -433,5 +502,31 @@
     border: 1px solid #000000;
     border-radius: 5px;
   }
+
+  .secao-categoria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
   
+  }
+
+  .destaques .sessao-vendas .produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+    padding-top: 10px;
+
+  }
+
+  .anuncio {
+    text-align: left;
+    padding-top: 30px;
+    width: fit-content;
+    padding-bottom: 50px;
+    margin-left: 10px;
+  }
+
 }

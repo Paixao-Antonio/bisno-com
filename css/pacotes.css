@@ -94,7 +94,6 @@
 .pacotes-divisao {
 
     display: flex;
-    background-color: var(--branca);
     justify-content: space-between;
     max-width: 950px;
     padding: 20px 0 50px 0;
@@ -107,6 +106,10 @@
     border-radius: 5px;
     margin: 5px;
 
+}
+
+.pacote{
+    background-color: var(--branca);
 }
 
 .pacote h4{
